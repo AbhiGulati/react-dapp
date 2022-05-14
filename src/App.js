@@ -2,10 +2,10 @@ import './App.css';
 import { useState } from 'react';
 import { ethers } from 'ethers';
 import Greeter from './artifacts/contracts/Greeter.sol/Greeter.json';
-import Token from './artifacts/contracts/Token.sol/Token.json';
+import Token from './artifacts/contracts/Token.sol/AGToken.json';
 
 const greeterAddress = '0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9';
-const tokenAddress = '0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9';
+const tokenAddress = '0xa513E6E4b8f2a923D98304ec87F64353C4D5C853';
 
 function App() {
     const [greeting, setGreetingValue] = useState();
